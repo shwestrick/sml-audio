@@ -1,0 +1,13 @@
+local
+  $(SML_LIB)/basis/basis.mlb
+  compat/mlton.mlb
+  Util.sml
+  SeqBasis.sml
+  Seq.sml
+  Parse.sml
+  WavIO.sml
+  Signal.sml
+in
+  structure WavIO
+  structure Signal
+end
