@@ -7,8 +7,7 @@ There are two source files:
   - `lib/github.com/shwestrick/sml-audio/sml-audio.mlb`
   - `lib/github.com/shwestrick/sml-audio/sml-audio.mpl.mlb`
 
-The `.mlb` is for use with normal SML
-([MLton](http://mlton.org/), [SML/NJ](https://www.smlnj.org/), etc.)
+The `.mlb` is for use with normal SML (e.g. [MLton](http://mlton.org/))
 and the `.mpl.mlb` is for use with [MPL](https://github.com/mpllang/mpl).
 
 ## Interface
