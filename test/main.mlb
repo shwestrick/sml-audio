@@ -1,0 +1,3 @@
+$(SML_LIB)/basis/basis.mlb
+../lib/github.com/shwestrick/sml-audio/sml-audio.mlb
+main.sml
