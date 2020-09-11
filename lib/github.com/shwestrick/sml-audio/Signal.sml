@@ -319,7 +319,7 @@ struct
         (N + DF)
 
     in
-      compress 2.0 {sr=sr, data=wet}
+      compress 1.1 {sr=sr, data=wet}
     end
 
 end
