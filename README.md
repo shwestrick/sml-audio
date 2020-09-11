@@ -1,5 +1,13 @@
-A Standard ML library for audio manipulation and I/O. Designed to work well
+A Standard ML library for audio manipulation and I/O, designed to work well
 with the [smlpkg](https://github.com/diku-dk/smlpkg) package manager.
+Includes IIR comb and all-pass filters, artificial reverberation, mu-law
+compression, and I/O for `.wav` files (8- or 16-bit PCM).
+
+This library is well optimized and---if compiled with
+[MPL](https://github.com/mpllang/mpl)---highly parallel.
+Check out
+[Sam's blog](https://shwestrick.github.io/2020/08/28/digital-reverb.html)
+to learn about the algorithms implemented here!
 
 ## Library sources
 
@@ -9,6 +17,7 @@ There are two source files:
 
 The `.mlb` is for use with normal SML (e.g. [MLton](http://mlton.org/))
 and the `.mpl.mlb` is for use with [MPL](https://github.com/mpllang/mpl).
+Both supply the same interface, described below.
 
 ## Interface
 
