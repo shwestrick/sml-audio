@@ -1,4 +1,5 @@
 package github.com/shwestrick/sml-audio
 
 require {
+  github.com/shwestrick/sml-parseq 0.0.0-20210411110538+c1f6dd21263bbfbce7a279fbab54c02580409bc9
 }

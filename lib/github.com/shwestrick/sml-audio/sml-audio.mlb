@@ -1,9 +1,8 @@
 local
   $(SML_LIB)/basis/basis.mlb
   compat/mlton.mlb
+  ../sml-parseq/sml-parseq.mlb
   Util.sml
-  SeqBasis.sml
-  Seq.sml
   Parse.sml
   WavIO.sml
   Signal.sml
